@@ -767,6 +767,8 @@ GameObject:
   - component: {fileID: 1456301770}
   - component: {fileID: 1456301769}
   - component: {fileID: 1456301768}
+  - component: {fileID: 1456301773}
+  - component: {fileID: 1456301772}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -852,6 +854,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1456301772
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456301767}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1456301773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456301767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &1567045441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,7 +1639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5883457909149359616, guid: 050c12e1887a49647b279fb55b738275, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.67
+      value: 1.594
       objectReference: {fileID: 0}
     - target: {fileID: 5883457909149359616, guid: 050c12e1887a49647b279fb55b738275, type: 3}
       propertyPath: m_LocalPosition.z
